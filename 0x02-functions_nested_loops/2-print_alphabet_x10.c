@@ -5,16 +5,16 @@
  *
  * Return: Always 0 (Succes)
  */
-void print_alphabet(void)
+void print_alphabet_x10(void)
 {
-	int lett, n;
-  while (n < 10)
-  {
-      for (lett = 'a'; lett <= 'z'; lett++)
-      {
-        _putchar(lett);
-      }
-      n++;
-	    _putchar('\n');
-  }
+	  int lett, n;
+	  while (n < 10)
+	  {
+	      for (lett = 'a'; lett <= 'z'; lett++)
+	      {
+		_putchar(lett);
+	      }
+	      n++;
+	      _putchar('\n');
+	  }
 }
