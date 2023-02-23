@@ -10,11 +10,11 @@
 
 void print_numbers(void)
 {
-	int i;
+	int numbers;
 
-	for(i = '0'; i <= '9' ; i++)
+	for(numbers = '0'; numbers <= '9' ; numbers++)
 	{
-		_putchar(i);
+		_putchar(numbers);
 	}
 	_putchar('\n');
 }
