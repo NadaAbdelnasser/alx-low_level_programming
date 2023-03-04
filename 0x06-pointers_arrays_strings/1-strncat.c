@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-nb
-=======
 #include "main.h"
 
 /**
@@ -26,5 +23,3 @@ char *_strncat(char *dest, char *src, int n)
 	}
 	return (dest);
 }
-
->>>>>>> 807f043dd6f277f44d71ad365adbfb4ead8c9139
